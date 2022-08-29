@@ -1,0 +1,63 @@
+body{
+    background: linear-gradient(#4188db, #acd3ff);   
+}
+
+.container{
+    margin: 50px;
+}
+
+.nav{
+    display: flex;
+    gap: 15px;
+    color: white;
+}
+
+.judul{
+    margin-top: 50px;
+    color: white;
+}
+
+.judul p{
+    margin-top: 30px;
+    color: white;
+}
+
+.button-search{
+    display: flex;
+    margin-top: 40px;
+}
+
+.cards{
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+
+.card{
+    width: 540px;
+}
+
+.card-atas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bungkus{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bungkus-text p{
+    line-height: 15px;
+}
+
+.bungkus img{
+    width: 60px;
+}
+
+.footer{
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+}
