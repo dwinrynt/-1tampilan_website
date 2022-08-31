@@ -1,3 +1,10 @@
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+
 .logo h3{
     font-size: 1rem;
 }
@@ -10,7 +17,7 @@
     background: url(asset/nusantara\ \(2\).png);
     /* background-position: center; */
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:100%;
 }
 
 .kiri{
@@ -38,11 +45,13 @@
 
 
 .half{
-    width: 25%;
-    position: relative;
+    width: 30%;
+    transform: rotate(20deg);
+    /* position: relative; */
     float: right;
-    top: -50px;
-    z-index: 2;
+    margin: -300px auto;
+    /* z-index: 2; */
+    padding-right: -100px;
 } 
 
 .garis{
