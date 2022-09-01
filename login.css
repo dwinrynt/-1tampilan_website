@@ -1,59 +1,27 @@
+body{
+    background-image: url(asset/nusantara.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
 .logo h3{
     font-size: 1rem;
 }
 
-.form-login{
-    display: flex;
-    justify-content: center;
-    position: relative;
-    z-index: 3;
-    background: url(asset/nusantara\ \(2\).png);
-    /* background-position: center; */
-    background-repeat: no-repeat;
-    background-size: cover;
+body a{
+    text-decoration: none;
 }
 
-.kiri{
-    width: 40%;
-    background-color: white;
-    height: 100vh;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.kanan{
-    width: 40%;
-    background: rgb(37,114,204);
-    background: linear-gradient(180deg, rgba(37,114,204,1) 50%, rgba(81,156,244,1) 100%);
-    height: 100vh;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-
-.desc>img{
-    margin: 45% auto auto auto;
-    display: block;
-    position: relative;
-    z-index: 2;
-    top: -150px;
-}
-
-
-.half{
-    width: 25%;
-    position: relative;
-    float: right;
-    top: -50px;
-    z-index: 2;
-} 
-
-.garis{
+.garis {
+    text-align: center;
+    color: rgb(158, 158, 158);
     display: flex;
     justify-content: center;
 }
 
-.garis p{
-    margin: auto 0;
-    color: #9B9B9B;
-}
+
 
 .garis-kiri, .garis-kanan{
     width: 30%;
@@ -61,3 +29,16 @@
     background-color: #9B9B9B;
     margin: auto;
 }
+
+.device img{
+    margin: 45% auto auto auto;
+    display: block;
+    position: relative;
+    z-index: 2;
+    top: -150px;
+}
+/* .form-login{
+    width: 50%;
+    background-color: black;
+    height: 40rem;
+} */
